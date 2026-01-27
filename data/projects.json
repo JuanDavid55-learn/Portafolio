@@ -1,0 +1,26 @@
+[
+  {
+    "title": "CampusMusic",
+    "description": "Sistema de gestión de cursos musicales. Junto a mi compañero de trabajo implementamos roles personalizados, vistas seguras y manejo de colecciones con MongoDB.",
+    "tech": "MongoDB, JSON Schema",
+    "github": "https://github.com/JuanDavid55-learn/PROYECTO-MONGODB2_ENRRIQUECORPUS_JUANDAVIDBARRERA.git"
+  },
+  {
+    "title": "Plataforma de Películas",
+    "description": "Plataforma de administración y consulta de películas y series. Permite filtrar y visualizar contenidos mediante un panel tipo dashboard con diferentes consultas personalizadas.",
+    "tech": "HTML, CSS, JavaScript",
+    "github": "https://github.com/JuanDavid55-learn/javascript-BarreraJuanDavid.git"
+  },
+  {
+    "title": "Empanadas Doña Pepa",
+    "description": "Sistema de gestión para “Empanadas Doña Pepa”. Permite registrar productos y optimizar la colaboración del equipo mediante el uso de Git y GitHub para un control completo del desarrollo.",
+    "tech": "Python",
+    "github": "https://github.com/JuanDavid55-learn/Proyecto_Git_BarreraJuanDavid.git"
+  },
+  {
+    "title": "Guía de Menús Gastronómicos",
+    "description": "Guía de Menús Gastronómicos. Proyecto desarrollado con ramas independientes por tipo de cocina, donde se documentan y fusionan los menús en la rama principal para crear una guía completa y coherente.",
+    "tech": "Markdown",
+    "github": "https://github.com/JuanDavid55-learn/Examen_Git_BarreraJuanDavid.git"
+  }
+]
