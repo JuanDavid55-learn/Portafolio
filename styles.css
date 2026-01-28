@@ -144,7 +144,8 @@ nav a:hover {
 
 .project-card:hover {
   transform: translateY(-5px);
-  background: #111;
+  background: #262726;
+  color:#ffffff;
 }
 
 .tech {

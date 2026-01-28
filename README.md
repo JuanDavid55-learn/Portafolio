@@ -4,6 +4,8 @@
     Rol: Desarrollador Junior
     Proyecto: Portafolio personal
 
+**NOTA:** Si deseas conocer mi portafolio, puedes acceder desde el siguiente enlace. [https://juandavid55-learn.github.io/Portafolio/]
+
 ---
 ## Descripción del proyecto
 

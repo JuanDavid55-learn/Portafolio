@@ -1,5 +1,11 @@
 [
   {
+    "title": "Fundación de Ayudas Comunitarias",
+    "description": "Desarrollo de un sistema de registro para una fundación comunitaria, aplicando programación orientada a objetos, validación de datos y arquitectura MVC en Java.",
+    "tech": "Java",
+    "github": "https://github.com/JuanDavid55-learn/Actividad_Java_Fundacion.git"
+  },
+  {
     "title": "CampusMusic",
     "description": "Sistema de gestión de cursos musicales. Junto a mi compañero de trabajo implementamos roles personalizados, vistas seguras y manejo de colecciones con MongoDB.",
     "tech": "MongoDB, JSON Schema",
