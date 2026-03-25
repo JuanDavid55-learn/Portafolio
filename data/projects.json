@@ -1,5 +1,17 @@
 [
   {
+    "title": "LogiTrack S.A.",
+    "description": "Sistema backend centralizado para la gestión de inventario, movimientos y auditoría de bodegas empresariales. Permite registrar entradas, salidas y transferencias entre bodegas, con trazabilidad completa de cambios y control de accesos por roles mediante autenticación JWT.",
+    "tech": "Java, Spring Boot, MySQL, JWT, Swagger, HTML/CSS/JS",
+    "github": "https://github.com/JuanDavid55-learn/Proyecto_SpringBoot_JuanDavidBarrera.git"
+  },
+  {
+    "title": "TecnoStore",
+    "description": "Sistema en Java para administrar celulares, clientes y ventas, con control de stock, cálculo de IVA y generación de reportes básicos. Implementa POO, colecciones y persistencia en MySQL mediante JDBC.",
+    "tech": "Java, MySQL, JDBC",
+    "github": "https://github.com/JuanDavid55-learn/Proyecto_TecnoStore.git"
+  },
+  {
     "title": "Fundación de Ayudas Comunitarias",
     "description": "Desarrollo de un sistema de registro para una fundación comunitaria, aplicando programación orientada a objetos, validación de datos y arquitectura MVC en Java.",
     "tech": "Java",
