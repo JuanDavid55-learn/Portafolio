@@ -1,4 +1,10 @@
 [
+    {
+    "title": "HelpDeskBot",
+    "description": "Sistema automatizado de soporte técnico en Telegram que permite crear y consultar tickets mediante flujos conversacionales interactivos. Incluye gestión de usuarios, historial de actividad, navegación por estados persistentes y generación automática de tickets con seguimiento en tiempo real.",
+    "tech": "n8n, Telegram Bot API, Google Sheets",
+    "github": "https://github.com/JuanDavid55-learn/proyect_HelpDeskBot.git"
+  },
   {
     "title": "LogiTrack S.A.",
     "description": "Sistema backend centralizado para la gestión de inventario, movimientos y auditoría de bodegas empresariales. Permite registrar entradas, salidas y transferencias entre bodegas, con trazabilidad completa de cambios y control de accesos por roles mediante autenticación JWT.",
