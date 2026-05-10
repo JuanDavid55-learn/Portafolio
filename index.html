@@ -6,18 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio | Juan David Barrera Torres</title>
   <link rel="stylesheet" href="styles.css" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <button id="theme-toggle" class="theme-toggle">🌙</button>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema">🌙</button>
 
   <header class="navbar">
     <div class="container">
-      <h1 class="logo">Juan David</h1>
+      <h1 class="logo">JD<span class="logo-dot">.</span></h1>
       <nav id="nav-menu">
         <ul>
           <li><a href="#about">Sobre mí</a></li>
@@ -27,109 +25,203 @@
           <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav>
-      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">☰</button>
     </div>
   </header>
 
   <section class="hero" id="home">
     <div class="container">
       <div class="profile">
-        <img src="img/imagen de perfil.jpeg" alt="Foto de Juan David">
+        <div class="avatar-ring">
+          <div class="avatar-initials">JD</div>
+        </div>
       </div>
-      <h2>Hola, soy <span>Juan David Barrera Torres</span></h2>
+
+      <div class="hero-badges">
+        <span class="available-badge">
+          <span class="pulse-dot"></span>
+          Disponible para trabajo
+        </span>
+        <span class="location-badge"> Bucaramanga, Colombia</span>
+      </div>
+
+      <h2>Juan David<br><span>Barrera Torres</span></h2>
+
+      <p class="hero-role">Desarrollador Backend Junior · Java & Spring Boot</p>
+
       <p class="intro">
-        Soy un <strong>Desarrollador Junior</strong> Apasionado por aprender cada día, explorar mis capacidades y dar lo
-        mejor de mí en cada proyecto, encontrando en ello la motivación para seguir creciendo.
+        Apasionado por construir soluciones escalables, aprender constantemente y dar lo mejor en cada proyecto.
       </p>
-      <br>
-      <p class="quote">“Trabajo por mí y por ser una mejor versión cada día.”</p>
+
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">Ver proyectos</a>
+        <a href="#contact" class="btn-outline">Contactarme</a>
+      </div>
+
+      <p class="quote">"Trabajo por mí y por ser una mejor versión cada día."</p>
     </div>
   </section>
 
   <section class="about" id="about">
     <div class="container">
-      <h3>Sobre mí</h3>
-      <p>
-        Soy desarrollador de software con enfoque en Java, con experiencia en la construcción de aplicaciones orientadas a la gestión de datos, implementando principios de Programación Orientada a Objetos, manejo de bases de datos MySQL y uso de tecnologías como JDBC y Spring Boot. He desarrollado proyectos donde aplico buenas prácticas de diseño, validaciones de negocio y organización de estructura MVC o de estructura por capas.        
-      </p>
-      <br>
-      <p>        
-        Me considero una persona responsable y con buena capacidad de aprendizaje. Disfruto resolver problemas, entender cómo funcionan las cosas a profundidad y mejorar continuamente mis habilidades técnicas. Además, trabajo bien en equipo, me adapto a nuevos entornos y mantengo una actitud proactiva frente a los retos.        
-      </p>
-      <br>
-      <p>    
-        Actualmente, estoy enfocado en fortalecer mis conocimientos en desarrollo backend y en la construcción de soluciones más escalables y seguras.
-      </p>
-      <p>
-        <br>
-        💡 <strong>Visión:</strong> convertirme en un profesional capaz de ofrecer soluciones efectivas y ser reconocido
-        por mi confiabilidad.
-        <br>
-        <br>
-        ❤️ <strong>Valores:</strong> Disciplina, curiosidad, responsabilidad y colaboración.
-      </p>
+      <span class="section-tag">Sobre mí</span>
+      <h3>Quién soy</h3>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Soy desarrollador de software con enfoque en Java, con experiencia en la construcción de aplicaciones
+            orientadas a la gestión de datos, implementando principios de Programación Orientada a Objetos, manejo de
+            bases de datos MySQL y uso de tecnologías como JDBC y Spring Boot.
+          </p>
+          <p>
+            Me considero una persona responsable y con buena capacidad de aprendizaje. Disfruto resolver problemas,
+            entender cómo funcionan las cosas a profundidad y mejorar continuamente mis habilidades técnicas.
+          </p>
+          <p>
+            Actualmente, estoy enfocado en fortalecer mis conocimientos en desarrollo backend y en la construcción de
+            soluciones más escalables y seguras.
+          </p>
+        </div>
+        <div class="about-values">
+          <div class="value-card">
+            <span class="value-icon">💡</span>
+            <div>
+              <strong>Visión</strong>
+              <p>Convertirme en un profesional capaz de ofrecer soluciones efectivas y ser reconocido por mi confiabilidad.</p>
+            </div>
+          </div>
+          <div class="value-card">
+            <span class="value-icon">❤️</span>
+            <div>
+              <strong>Valores</strong>
+              <p>Disciplina, curiosidad, responsabilidad y colaboración.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="skills" id="skills">
     <div class="container">
-      <h3>Habilidades Técnicas</h3>
-      <div class="skills-grid">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>Node.js</span>
-        <span>Python</span>
-        <span>MongoDB</span>
-        <span>MySQL</span>
-        <span>Java</span>
-        <span>Spring Boot</span>
-        <span>n8n</span>
-        <span>Git & GitHub</span>
+      <span class="section-tag">Habilidades</span>
+      <h3>Stack Técnico</h3>
+
+      <div class="skills-categories">
+        <div class="skill-category">
+          <div class="skill-cat-label">Backend</div>
+          <div class="skills-chips">
+            <span class="chip accent">Java</span>
+            <span class="chip accent">Spring Boot</span>
+            <span class="chip">Python</span>
+            <span class="chip">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-label">Bases de datos</div>
+          <div class="skills-chips">
+            <span class="chip accent">MySQL</span>
+            <span class="chip">MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-label">Frontend</div>
+          <div class="skills-chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-label">Herramientas</div>
+          <div class="skills-chips">
+            <span class="chip">Git & GitHub</span>
+            <span class="chip">n8n</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <section class="projects" id="projects">
     <div class="container">
+      <span class="section-tag">Proyectos</span>
       <h3>Proyectos Destacados</h3>
-
-      <div class="project-grid" id="projects-container">
-      </div>
+      <div class="project-grid" id="projects-container"></div>
     </div>
   </section>
 
   <section class="education" id="education">
     <div class="container">
+      <span class="section-tag">Formación</span>
       <h3>Formación Académica</h3>
       <div class="education-card">
-        <h4>CampusLands</h4>
+        <div class="edu-header">
+          <div class="edu-logo">CL</div>
+          <div>
+            <h4>CampusLands</h4>
+            <span class="edu-period">~1 año de formación</span>
+          </div>
+        </div>
         <p>
-          Llevo un proceso formativo de alrededor de nueve meses, en los que he adquirido bases sólidas en frontend y
-          backend, desarrollando proyectos que me han ayudado a entender mejor cómo funciona el mundo de la
-          programación. también he fortalecido mis habilidades de comunicación, trabajo en equipo y resolución de
-          conflictos, lo que me ha permitido crecer no solo como desarrollador, sino también como persona.
+          Proceso formativo donde adquirí bases sólidas en frontend y backend, desarrollando proyectos que me
+          ayudaron a entender el mundo de la programación. También fortalecí habilidades de comunicación, trabajo
+          en equipo y resolución de conflictos, creciendo como desarrollador y como persona.
         </p>
       </div>
     </div>
   </section>
 
-<section class="contact" id="contact">
-  <h2>Contacto</h2>
-  <div class="contact-container">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/github.svg"
-         class="contact-icon icon">
-         <p>https://github.com/JuanDavid55-learn</p>
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/whatsapp.svg"
-         class="contact-icon icon">
-         <p>3209551461</p>
-  </div>
-</section>
+  <section class="contact" id="contact">
+    <div class="container">
+      <span class="section-tag">Contacto</span>
+      <h3>Hablemos</h3>
+      <p class="contact-intro">Estoy abierto a oportunidades laborales y colaboraciones. ¡No dudes en escribirme!</p>
+      <div class="contact-grid">
+        <a href="https://github.com/JuanDavid55-learn" target="_blank" class="contact-card">
+          <div class="contact-icon-wrap">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/github.svg" class="contact-icon" alt="GitHub">
+          </div>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-val">JuanDavid55-learn</span>
+          </div>
+        </a>
+        <a href="https://wa.me/573209551461" target="_blank" class="contact-card">
+          <div class="contact-icon-wrap">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/whatsapp.svg" class="contact-icon" alt="WhatsApp">
+          </div>
+          <div>
+            <span class="contact-label">WhatsApp</span>
+            <span class="contact-val">320 955 1461</span>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/juan-david-barrera-torres-9463b53ba/" target="_blank" class="contact-card">
+          <div class="contact-icon-wrap">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/linkedin.svg" class="contact-icon" alt="LinkedIn">
+          </div>
+          <div>
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-val">Juan David Barrera Torres</span>
+          </div>
+        </a>
+        <a href="mailto:torresjuandavid087@gmail.com" class="contact-card">
+          <div class="contact-icon-wrap">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v15/icons/gmail.svg" class="contact-icon" alt="Email">
+          </div>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-val">Correo</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
 
-<footer>
-  <p>© 2026 Juan David Barrera Torres</p>
-</footer>
+  <footer>
+    <p>© 2026 <span>Juan David Barrera Torres</span></p>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
